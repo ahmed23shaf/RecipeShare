@@ -5,6 +5,7 @@ import Home from './Home';
 import BrowseRecipes from './BrowseRecipes';
 import AddRecipe from './AddRecipe';
 import RecipePage from './RecipePage';
+import Footer from './Footer';
 
 function App() {
   const [recipes, setRecipes] = useState([]);
@@ -35,6 +36,7 @@ function App() {
           <Route path="/add" element={<AddRecipe setRecipes={setRecipes} />} />
           <Route path="/recipe/:id" element={<RecipePage recipes={recipes} />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

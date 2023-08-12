@@ -1,0 +1,9 @@
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icon {
+    font-size: 30px;
+    color: #666;
+}

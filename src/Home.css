@@ -1,0 +1,41 @@
+.home {
+    text-align: left;
+    margin: 20px;
+  }
+  
+  .featured-recipe {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .featured-recipe-details {
+    flex: 1;
+  }
+  
+  .featured-recipe-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .featured-recipe-image img {
+    max-width: 100%;
+    max-height: 300px;
+  }
+  
+  .ingredients,
+  .instructions {
+    text-align: left;
+  }
+  
+  .ingredient-list {
+    list-style: disc;
+    padding-left: 30px;
+  }
+  
+  .instruction-list {
+    list-style: decimal;
+    padding-left: 30px;
+  }
+  

@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+header {
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+section {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+section h2 {
+  margin-bottom: 10px;
+}
+
+.featured-recipe {
+
+}
+
+.browse-recipes {
+  
+}
+
+.recipe-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.recipe-card {
+  width: 30%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.recipe-card p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.recipe-card button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.recipe-card button:hover {
+  background-color: #0056b3;
+}

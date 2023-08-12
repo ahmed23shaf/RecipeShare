@@ -1,0 +1,140 @@
+[
+    {
+        "id": 1,
+        "title": "Spaghetti and Meatballs",
+        "description": "Delicious homemade spaghetti served with mouthwatering meatballs in rich tomato sauce.",
+        "ingredients": [
+            "8 oz spaghetti",
+            "1 lb ground beef",
+            "1/2 cup breadcrumbs",
+            "1/4 cup grated Parmesan cheese",
+            "1/4 cup chopped fresh parsley",
+            "1 egg",
+            "2 cups marinara sauce",
+            "Salt and pepper to taste"
+        ],
+        "directions": [
+            "Cook spaghetti according to package instructions.",
+            "In a bowl, combine ground beef, breadcrumbs, Parmesan cheese, parsley, egg, salt, and pepper. Mix well and shape into meatballs.",
+            "In a skillet, heat marinara sauce and add meatballs. Cook until meatballs are cooked through.",
+            "Serve meatballs and sauce over cooked spaghetti."
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Chicken Biryani",
+        "description": "Aromatic and flavorful Indian dish featuring basmati rice, tender chicken, and a blend of spices.",
+        "ingredients": [
+            "2 cups basmati rice",
+            "1 lb chicken pieces",
+            "1 large onion, thinly sliced",
+            "2 tomatoes, chopped",
+            "1/4 cup plain yogurt",
+            "2 tbsp biryani masala",
+            "1 tsp ginger paste",
+            "1 tsp garlic paste",
+            "1/4 cup chopped cilantro",
+            "1/4 cup chopped mint leaves",
+            "Salt to taste"
+        ],
+        "directions": [
+            "Marinate chicken pieces in yogurt, biryani masala, ginger paste, garlic paste, salt, cilantro, and mint leaves for at least 1 hour.",
+            "In a large pot, saut\u00c3\u00a9 onions until golden brown. Add tomatoes and cook until soft.",
+            "Add marinated chicken and cook until chicken is tender.",
+            "Cook basmati rice separately and layer rice and chicken mixture.",
+            "Cover and cook on low heat until flavors meld.",
+            "Serve hot."
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Pecan Pie",
+        "description": "Buttery crust filled with sweet and nutty goodness, a perfect ending to any meal.",
+        "ingredients": [
+            "1 pie crust",
+            "1 cup pecan halves",
+            "3/4 cup granulated sugar",
+            "1/2 cup corn syrup",
+            "1/4 cup melted butter",
+            "3 large eggs",
+            "1 tsp vanilla extract",
+            "1/4 tsp salt"
+        ],
+        "directions": [
+            "Preheat oven to 350\u00c2\u00b0F (175\u00c2\u00b0C).",
+            "Arrange pecan halves in the pie crust.",
+            "In a bowl, whisk together sugar, corn syrup, melted butter, eggs, vanilla extract, and salt.",
+            "Pour the mixture over pecans in the pie crust.",
+            "Bake for 50-60 minutes, or until the filling is set.",
+            "Allow to cool before slicing and serving."
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Beef Tacos",
+        "description": "Savory ground beef seasoned with traditional spices and served in warm tortillas with fresh toppings.",
+        "ingredients": [
+            "1 lb ground beef",
+            "1 packet taco seasoning",
+            "1/2 cup water",
+            "8 small flour tortillas",
+            "1 cup shredded lettuce",
+            "1 cup diced tomatoes",
+            "1/2 cup shredded cheddar cheese",
+            "1/4 cup diced onions",
+            "1/4 cup chopped cilantro",
+            "Sour cream and salsa for serving"
+        ],
+        "directions": [
+            "In a skillet, cook ground beef until browned. Drain excess fat.",
+            "Add taco seasoning and water. Simmer until thickened.",
+            "Warm tortillas in a dry skillet or microwave.",
+            "Assemble tacos with beef, lettuce, tomatoes, cheese, onions, and cilantro.",
+            "Serve with sour cream and salsa."
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Garlic Butter Shrimp",
+        "description": "Tender shrimp sauteed in garlic butter and served with a squeeze of lemon.",
+        "ingredients": [
+            "1 lb large shrimp, peeled and deveined",
+            "3 tbsp unsalted butter",
+            "4 cloves garlic, minced",
+            "1/4 tsp red pepper flakes",
+            "1 tbsp chopped parsley",
+            "Juice of 1 lemon",
+            "Salt and pepper to taste"
+        ],
+        "directions": [
+            "In a skillet, melt butter over medium heat.",
+            "Add minced garlic and red pepper flakes. Cook until fragrant.",
+            "Add shrimp and cook until pink and opaque.",
+            "Stir in chopped parsley and lemon juice.",
+            "Season with salt and pepper.",
+            "Serve hot."
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Vegetable Stir Fry",
+        "description": "Colorful medley of fresh vegetables stir-fried in a savory sauce and served over steamed rice.",
+        "ingredients": [
+            "2 cups mixed vegetables (bell peppers, carrots, broccoli, snow peas, etc.)",
+            "2 tbsp vegetable oil",
+            "2 cloves garlic, minced",
+            "1 tsp grated ginger",
+            "1/4 cup soy sauce",
+            "1 tbsp oyster sauce",
+            "1 tsp sesame oil",
+            "2 cups cooked jasmine rice"
+        ],
+        "directions": [
+            "In a wok or skillet, heat vegetable oil over high heat.",
+            "Add minced garlic and grated ginger. Stir-fry for a minute.",
+            "Add mixed vegetables and stir-fry until crisp-tender.",
+            "Stir in soy sauce, oyster sauce, and sesame oil.",
+            "Serve vegetable stir-fry over cooked jasmine rice."
+        ]
+    }
+]

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './BrowseRecipes.css';
+import { Link } from 'react-router-dom';
 
 function BrowseRecipes() {
   const [recipes, setRecipes] = useState([]);
@@ -16,11 +17,17 @@ function BrowseRecipes() {
       <h2>Browse Recipes</h2>
       <div className="recipe-cards">
         {recipes.map((recipe) => (
-          <div key={recipe.id} className="recipe-card">
-            <h3>{recipe.title}</h3>
-            <p>{recipe.description}</p>
-            {}
-          </div>
+          <Link
+            key={recipe.id}
+            to={`/recipe/${recipe.id}`}
+            className="recipe-card"
+            style={{ textDecoration: 'none', color: 'inherit' }}
+          >
+            <div className="recipe-card-content">
+              <h3>{recipe.title}</h3>
+              <p>{recipe.description}</p>
+            </div>
+          </Link>
         ))}
       </div>
     </section>

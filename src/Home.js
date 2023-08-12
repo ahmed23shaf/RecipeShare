@@ -7,8 +7,7 @@ function Home() {
       <section className="featured-recipe">
         <div className="featured-recipe-details">
           <h2>Featured Recipe:</h2>
-          <p>Title: Chocolate Chip Cookies</p>
-          <p>By: @TheBaker</p>
+          <p>Chocolate Chip Cookies</p>
         </div>
         <div className="featured-recipe-image">
           <img src={`${process.env.PUBLIC_URL}/images/chocolate-chip-cookie.jpg`} alt="Chocolate Chip Cookie" />

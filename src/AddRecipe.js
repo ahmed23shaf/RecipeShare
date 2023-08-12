@@ -43,7 +43,6 @@ function AddRecipe() {
 
     if (addResponse.ok) {
       console.log('Recipe added successfully.');
-      // Clear input fields
       setTitle('');
       setDescription('');
       setIngredients('');

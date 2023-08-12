@@ -1,24 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import Home from './Home';
 import BrowseRecipes from './BrowseRecipes';
-import AddRecipe from './AddRecipe'; 
+import AddRecipe from './AddRecipe';
+import RecipePage from './RecipePage';
 
 function App() {
-  const isHomepage = window.location.pathname === '/';
+  const [recipes, setRecipes] = useState([]);
 
   return (
     <Router>
       <div className="App">
         <header className="App-header">
-          {isHomepage ? (
-            <h1>
-              Recipe Share
-            </h1>
-          ) : (
-            <h1 className="app-title">Recipe Share</h1>
-          )}
+          <h1>Recipe Share</h1>
           <nav>
             <ul>
               <li>
@@ -28,7 +23,7 @@ function App() {
                 <Link to="/browse">Browse Recipes</Link>
               </li>
               <li>
-                <Link to="/add">Add Recipe</Link> {}
+                <Link to="/add">Add Recipe</Link>
               </li>
             </ul>
           </nav>
@@ -37,7 +32,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/browse" element={<BrowseRecipes />} />
-          <Route path="/add" element={<AddRecipe />} /> {}
+          <Route path="/add" element={<AddRecipe setRecipes={setRecipes} />} />
+          <Route path="/recipe/:id" element={<RecipePage recipes={recipes} />} />
         </Routes>
       </div>
     </Router>
